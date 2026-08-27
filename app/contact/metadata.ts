@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Sushmeela - Best Content Writer in Pakistan",
+  title: "Contact Ramsha Khan- Best Content Writer in Pakistan",
   description:
-    "Contact Sushmeela for top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "Contact Ramsha Khanfor top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Sushmeela" }],
   openGraph: {
-    title: "Contact Sushmeela - Best Content Writer in Pakistan",
+    title: "Contact Ramsha Khan- Best Content Writer in Pakistan",
     description:
-      "Reach Sushmeela for expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
+      "Reach Ramsha Khanfor expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
         url: "/contact-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Contact Sushmeela for Content Writing Services",
+        alt: "Contact Ramsha Khanfor Content Writing Services",
       },
     ],
-    siteName: "Sushmeela Portfolio",
+    siteName: "Ramsha KhanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Sushmeela - Content Writing Services",
+    title: "Contact Ramsha Khan- Content Writing Services",
     description:
-      "Get in touch with Sushmeela for SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
+      "Get in touch with Ramsha Khanfor SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {

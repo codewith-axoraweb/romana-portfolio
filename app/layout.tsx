@@ -11,9 +11,11 @@ import FloatingWhatsApp from "@/components/floating-whatsapp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sushmeela - Expert Content Writer & SEO Copywriter",
+  title: "Ramsha Khan - Expert Content Writer & SEO Copywriter",
+
   description:
-    "Discover Sushmeela's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+    "Discover Ramsha Khan's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+
   keywords: [
     "content writer",
     "SEO content",
@@ -21,50 +23,47 @@ export const metadata: Metadata = {
     "copywriting",
     "content strategy",
     "freelance writer",
-    "Sushmeela portfolio",
-    "storycup"
+    "Ramsha Khan portfolio",
+    "storycup",
   ],
+
   icons: {
-    icon: "/favicon.ico", // Replace with your actual favicon
-    apple: "/apple-touch-icon.png", // Replace with your actual Apple touch icon
-    other: [
-      {
-        rel: "icon",
-        url: "/favicon.ico", // Replace with your actual 32x32 icon
-      },
-      {
-        rel: "icon",
-        url: "/favicon.ico", // Replace with your actual 16x16 icon
-      },
-    ],
+    icon: "/rimsha.png",
+    shortcut: "/rimsha.png",
+    apple: "/rimsha.png",
   },
-  authors: [{ name: "Sushmeela" }],
+
+  authors: [{ name: "Ramsha Khan" }],
+
   openGraph: {
-    title: "Sushmeela - Expert Content Writer & Copywriter",
+    title: "Ramsha Khan - Expert Content Writer & Copywriter",
     description:
-      "Explore Sushmeela's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
+      "Explore Ramsha Khan's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
     type: "website",
-    url: "https://storycup.vercel.app/", // Replace with your actual domain
+    url: "https://storycup.vercel.app/",
     images: [
       {
-        url: "/logo.jpeg", // Replace with a relevant image for social sharing
+        url: "/rimsha.png",
         width: 1200,
         height: 630,
-        alt: "Sushmeela Content Writing Portfolio",
+        alt: "Ramsha Khan Content Writing Portfolio",
       },
     ],
-    siteName: "Sushmeela Portfolio",
+    siteName: "Ramsha Khan Portfolio",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Sushmeela - Expert Content Writer & Copywriter",
+    title: "Ramsha Khan - Expert Content Writer & Copywriter",
     description:
-      "Explore Sushmeela's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
-    images: ["/og-image.jpg"], // Replace with your actual image
+      "Explore Ramsha Khan's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
+    images: ["/rimsha.png"],
   },
+
   alternates: {
-    canonical: "https://storycup.vercel.app/", // Replace with your actual domain
+    canonical: "https://storycup.vercel.app/",
   },
+
   robots: {
     index: true,
     follow: true,
@@ -76,23 +75,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  other: {
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Person",
-      name: "Sushmeela",
-      jobTitle: "Content Writer & SEO Copywriter",
-      url: "https://storycup.vercel.app/", // Replace with your actual domain
-      sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your Twitter
-      ],
-      description:
-        "Sushmeela is a professional content writer specializing in SEO content, blog writing, and copywriting for businesses and brands.",
-    }),
-  },
-};
-
+}
 
 export default function RootLayout({
   children,

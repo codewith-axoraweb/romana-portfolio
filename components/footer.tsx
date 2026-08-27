@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import { Github, Linkedin, Mail, Youtube } from "lucide-react"
 
 export function Footer() {
@@ -8,10 +9,13 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <img src="/logo.jpeg" alt="Sushmeela Logo" className="h-12 w-12 rounded-full" />
-              <span className="font-bold text-xl">Sushmeela</span>
-            </div>
+            <div className="flex items-center">
+  <img
+    src="/rimsha.png"
+    alt="Ramsha Khan Logo"
+    className="h-auto w-[150px] max-w-full object-contain sm:w-[200px] md:w-[220px] lg:w-[240px]"
+  />
+</div>
             <p className="text-muted-foreground">Crafted with clarity by your dedicated Content Writer</p>
 
             <div className="flex space-x-2">
@@ -31,7 +35,7 @@ export function Footer() {
                 </Link>
               </Button>
               <Button size="icon" variant="ghost" asChild>
-                <Link href="mailto:shustorycup@gmail.com">
+                <Link href="mailto: rkvirgo90@gmail.com">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
@@ -42,22 +46,22 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-muted-foreground hover:text-primary">
+                <Link href="/" className="text-muted-foreground hover:text-blue">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-muted-foreground hover:text-primary">
+                <Link href="/about" className="text-muted-foreground hover:text-blue">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio" className="text-muted-foreground hover:text-primary">
+                <Link href="/portfolio" className="text-muted-foreground hover:text-blue">
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-primary">
+                <Link href="/services" className="text-muted-foreground hover:text-blue">
                   Services
                 </Link>
               </li>
@@ -90,13 +94,13 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li>
-                <span className="text-muted-foreground">shustorycup@gmail.com</span>
+                <span className="text-muted-foreground"> rkvirgo90@gmail.com</span>
               </li>
               <li>
-                <span className="text-muted-foreground">+92 3181463425</span>
+                <span className="text-muted-foreground">+92 3232109265</span>
               </li>
               <li>
-                <span className="text-muted-foreground">Lahore ,Pakistan</span>
+                <span className="text-muted-foreground">Karachi, Pakistan</span>
               </li>
             </ul>
           </div>

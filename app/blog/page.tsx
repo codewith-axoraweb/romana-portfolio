@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Explore Sushmeela's blog for expert tips on content writing, SEO content, and blog writing from Pakistan's top writer.",
   keywords: [
-    "Sushmeela blog",
+    "Ramsha Khanblog",
     "best content writing services",
     "content writing services in Pakistan",
     "article writing services in Pakistan",
@@ -46,10 +46,10 @@ export const metadata: Metadata = {
         url: "/blog-og-image.jpg", // Replace with a relevant image for the Blog page
         width: 1200, // Fixed: Changed from 00 to 1200
         height: 630,
-        alt: "Sushmeela Blog - Content Writing Tips",
+        alt: "Ramsha KhanBlog - Content Writing Tips",
       },
     ],
-    siteName: "Sushmeela Portfolio",
+    siteName: "Ramsha KhanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
@@ -187,7 +187,7 @@ export default function BlogPage() {
                   key={category}
                   variant="outline"
                   size="sm"
-                  className="hover:bg-primary hover:text-primary-foreground"
+                  className="hover:bg-primary hover:text-blue-foreground"
                 >
                   {category}
                 </Button>
@@ -218,7 +218,7 @@ export default function BlogPage() {
                       {post.readTime}
                     </div>
                   </div>
-                  <CardTitle className="text-xl hover:text-primary transition-colors">
+                  <CardTitle className="text-xl hover:text-blue transition-colors">
                     <Link href={`/blog/${post.id}`}>{post.title}</Link>
                   </CardTitle>
                 </CardHeader>
@@ -252,7 +252,7 @@ export default function BlogPage() {
                       {new Date(post.date).toLocaleDateString()}
                     </div>
                   </div>
-                  <CardTitle className="text-lg hover:text-primary transition-colors">
+                  <CardTitle className="text-lg hover:text-blue transition-colors">
                     <a href={`${post.liveUrl}`}>{post.title}</a>
                   </CardTitle>
                 </CardHeader>

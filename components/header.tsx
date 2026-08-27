@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ThemeToggle } from "@/components/theme-toggle";
 import ReviewToggleButton from "@/components/ReviewToggleButton";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -28,18 +29,21 @@ export function Header() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <img
-              src="/logo.jpeg"
-              alt="Sushmeela Logo"
-              className="h-10 w-10 sm:h-12 sm:w-12 md:h-16 md:w-16 rounded-full object-cover"
-            />
-            <span className="font-bold text-lg sm:text-xl md:text-2xl whitespace-nowrap">
-              Sushmeela
-            </span>
-          </Link>
-
+{/* Logo */}
+<Link href="/" className="flex items-center shrink-0">
+  <img
+    src="/rimsha.png"
+    alt="Ramsha Khan Logo"
+    className="
+      h-24 w-24
+      sm:h-26 sm:w-26
+      md:h-28 md:w-36
+      lg:h-32 lg:w-36
+      xl:h-36 xl:w-36
+      object-contain
+    "
+  />
+</Link>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             {navigation.map((item) => (

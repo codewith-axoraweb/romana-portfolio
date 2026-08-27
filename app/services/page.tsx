@@ -9,7 +9,7 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Sushmeela's Services - Best Content Writing & SEO Copywriting",
   description:
-    "Hire Sushmeela for top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
+    "Hire Ramsha Khanfor top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
   keywords: [
     "best content writing services",
     "content writing services in Pakistan",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sushmeela's Services - Best Content Writing & SEO in Pakistan",
     description:
-      "Sushmeela offers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
+      "Ramsha Khanoffers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
     type: "website",
     url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
     images: [
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
         url: "/services-og-image.jpg", // Replace with a relevant image for the Services page
         width: 1200,
         height: 630,
-        alt: "Sushmeela Best Content Writing Services",
+        alt: "Ramsha KhanBest Content Writing Services",
       },
     ],
-    siteName: "Sushmeela Portfolio",
+    siteName: "Ramsha KhanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Sushmeela's Services - Best Content Writing & SEO",
     description:
-      "Hire Sushmeela for professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
+      "Hire Ramsha Khanfor professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
     images: ["/services-og-image.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
         "https://twitter.com/Sushmeela", // Replace with your actual Twitter
       ],
       description:
-        "Sushmeela provides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
+        "Ramsha Khanprovides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
       areaServed: [
         "Pakistan",
         "Karachi",
@@ -127,7 +127,7 @@ const services = [
 const packages = [
   {
     name: "Starter",
-    price: "$50",
+    price: "$10",
     description: "Perfect for startups and personal brands",
     features: [
       "3 blog posts (up to 1,000 words)",
@@ -142,7 +142,7 @@ const packages = [
   },
   {
     name: "Professional",
-    price: "$100",
+    price: "$50",
     description: "Ideal for growing businesses and agencies",
     features: [
       "6 blog posts (up to 1,200 words)",
@@ -195,7 +195,7 @@ export default function ServicesPage() {
                   <CardHeader>
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                        <Icon className="h-6 w-6 text-primary" />
+                        <Icon className="h-6 w-6 text-blue" />
                       </div>
                       <div>
                         <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -246,7 +246,7 @@ export default function ServicesPage() {
 
         <CardHeader className="text-center">
           <CardTitle className="text-2xl">{pkg.name}</CardTitle>
-          <div className="text-3xl font-bold text-primary">{pkg.price}</div>
+          <div className="text-3xl font-bold text-blue">{pkg.price}</div>
           <p className="text-muted-foreground">{pkg.description}</p>
         </CardHeader>
         <CardContent>
@@ -280,7 +280,7 @@ export default function ServicesPage() {
             ].map((item, index) => (
               <Card key={index} className="text-center">
                 <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center mx-auto mb-4 text-lg font-bold">
+                  <div className="w-12 h-12 bg-primary text-blue-foreground rounded-full flex items-center justify-center mx-auto mb-4 text-lg font-bold">
                     {item.step}
                   </div>
                   <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
@@ -331,7 +331,7 @@ export default function ServicesPage() {
         <section className="text-center">
           <Card className="max-w-2xl mx-auto">
             <CardContent className="p-8">
-              <MessageCircle className="h-12 w-12 text-primary mx-auto mb-4" />
+              <MessageCircle className="h-12 w-12 text-blue mx-auto mb-4" />
               <h2 className="text-2xl font-bold mb-4">Ready to Elevate Your Content?</h2>
               <p className="text-muted-foreground mb-6">
                 Let's discuss your content needs and bring your ideas to life with impactful writing.

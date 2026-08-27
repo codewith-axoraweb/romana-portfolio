@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 import { DownloadResumeButton } from "@/components/DownloadResumeButton"
 
 export const metadata: Metadata = {
-  title: "About Sushmeela - Expert Content Writer & SEO Copywriter",
+  title: "About Ramsha Khan- Expert Content Writer & SEO Copywriter",
   description:
     "Learn about Sushmeela, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
   keywords: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 ],
   authors: [{ name: "Sushmeela" }],
   openGraph: {
-    title: "About Sushmeela - Expert Content Writer",
+    title: "About Ramsha Khan- Expert Content Writer",
     description:
       "Discover Sushmeela's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
     type: "website",
@@ -48,14 +48,14 @@ export const metadata: Metadata = {
         url: "/aboutme.webp", // Replace with a relevant image for the About page
         width: 1200,
         height: 630,
-        alt: "Sushmeela - Content Writer Profile",
+        alt: "Ramsha Khan- Content Writer Profile",
       },
     ],
-    siteName: "Sushmeela Portfolio",
+    siteName: "Ramsha KhanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Sushmeela - Expert Content Writer",
+    title: "About Ramsha Khan- Expert Content Writer",
     description:
       "Learn about Sushmeela's expertise in SEO content, blog writing, and copywriting for impactful business content.",
     images: ["/aboutme.webp"], // Replace with your actual image
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
         "https://twitter.com/Sushmeela", // Replace with your actual Twitter
       ],
       description:
-        "Sushmeela is a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
+        "Ramsha Khanis a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
     }),
   },
 };
@@ -103,14 +103,14 @@ export default function AboutPage() {
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
               src="/aboutme.webp?height=128&width=128"
-              alt="Suhumella"
+              alt="Rimsha"
               fill
               className="rounded-full border-4 border-primary/20"
             />
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">About Me</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate content writer with 5+ years of experience crafting words that connect, convert, and inform.
+            I'm a passionate content writer with 2+ yearsof experience crafting words that connect, convert, and inform.
             I specialize in web content, blogs, and brand storytelling that leaves a lasting impact.
           </p>
           <DownloadResumeButton/>
@@ -124,11 +124,11 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Briefcase className="h-6 w-6 text-primary" />
+                    <Briefcase className="h-6 w-6 text-blue" />
                   </div>
                   <div>
                     <CardTitle>Senior Content Writer</CardTitle>
-                    <p className="text-muted-foreground">CreativeWords Agency • 2022 - Present</p>
+                    <p className="text-muted-foreground">CreativeWords Agency • 2024 - Present</p>
                   </div>
                 </div>
               </CardHeader>
@@ -149,11 +149,11 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Briefcase className="h-6 w-6 text-primary" />
+                    <Briefcase className="h-6 w-6 text-blue" />
                   </div>
                   <div>
                     <CardTitle>Content Specialist</CardTitle>
-                    <p className="text-muted-foreground">InspireMedia Co. • 2020 - 2022</p>
+                    <p className="text-muted-foreground">InspireMedia Co. • 2023 - 2024</p>
                   </div>
                 </div>
               </CardHeader>
@@ -282,7 +282,7 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <GraduationCap className="h-6 w-6 text-primary" />
+                    <GraduationCap className="h-6 w-6 text-blue" />
                   </div>
                   <div>
                     <CardTitle>Bachelor of English Literature</CardTitle>
@@ -301,7 +301,7 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Award className="h-6 w-6 text-primary" />
+                    <Award className="h-6 w-6 text-blue" />
                   </div>
                   <div>
                     <CardTitle>HubSpot Content Marketing Certified</CardTitle>
