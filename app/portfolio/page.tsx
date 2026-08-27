@@ -9,11 +9,11 @@ import { Footer } from "@/components/footer"
 import { ExternalLink} from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Sushmeela's Portfolio - SEO Content & Copywriting",
+  title: "Anam Fatima's Portfolio - SEO Content & Copywriting",
   description:
-    "Explore Sushmeela's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
+    "Explore Anam Fatima's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
   keywords: [
-  "Ramsha Khanportfolio",
+  "Anam fatimaportfolio",
   "content writing portfolio",
   "best content writing services",
   "content writing services in Pakistan",
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Anam Fatima" }],
   openGraph: {
-    title: "Sushmeela's Portfolio - Content Writing & SEO",
+    title: "Anam Fatima's Portfolio - Content Writing & SEO",
     description:
-      "View Sushmeela's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
+      "View Anam Fatima's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
     type: "website",
     url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
     images: [
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
         url: "/worldwideartical.jpg", // Replace with a relevant image for the Portfolio page
         width: 1200,
         height: 630,
-        alt: "Ramsha KhanContent Writing Portfolio",
+        alt: "Anam fatimaContent Writing Portfolio",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Anam fatimaPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sushmeela's Portfolio - Content Writing & SEO",
+    title: "Anam Fatima's Portfolio - Content Writing & SEO",
     description:
-      "Discover Sushmeela's portfolio showcasing SEO content, blog writing, and copywriting projects.",
+      "Discover Anam Fatima's portfolio showcasing SEO content, blog writing, and copywriting projects.",
     images: ["/worldwideartical.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -76,18 +76,18 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Sushmeela's Content Writing Portfolio",
+      name: "Anam Fatima's Content Writing Portfolio",
       author: {
         "@type": "Person",
-        name: "Sushmeela",
+        name: "Anam Fatima",
       },
       url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your actual LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Anam Fatima", // Replace with your actual LinkedIn
+        "https://twitter.com/Anam Fatima", // Replace with your actual Twitter
       ],
       description:
-        "Sushmeela's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
+        "Anam Fatima's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
     }),
   },
 };
@@ -137,7 +137,7 @@ const projects = [
     image: "/Digital Marketing.webp?height=300&width=500",
     category: "Documentation",
     technologies: ["Technical Writing", "Markdown", "Help Center"],
-    liveUrl: "https://docs.google.com/document/d/1fJfpoB1pAwIUNyTlncIbGdGOkuxkjInmuz9jT_cdP3w/edit?tab=t.0",
+    liveUrl: "https://docs.google.com/document/d/1TO-iNBPsDghU2NcYEsdi2TlmQ2ZbiyKpf2GPBL1hgrw/edit?usp=drivesdk",
     githubUrl: "#",
     featured: false,
   },

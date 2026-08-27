@@ -9,7 +9,7 @@ export default function FloatingWhatsApp() {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hi! I'd like to discuss my Content Writing needs.")
-    window.open(`https://wa.me/+923232109265?text=${message}`, "_blank")
+    window.open(`https://wa.me/+923357822490?text=${message}`, "_blank")
   }
 
   if (!isVisible) return null

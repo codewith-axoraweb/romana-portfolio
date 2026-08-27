@@ -42,46 +42,46 @@ export default function ContactPage() {
   };
 
   const handleSubmitEmail = async (e: React.FormEvent) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  if (!formData.service || !formData.budget) {
-    alert("Please select both a content type and a budget range.");
-    return;
-  }
-
-  setIsSending(true);
-
-  try {
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    });
-
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(data.message || "Failed to send message");
+    if (!formData.service || !formData.budget) {
+      alert("Please select both a content type and a budget range.");
+      return;
     }
 
-    alert("Your message has been sent successfully!");
+    setIsSending(true);
 
-    setFormData({
-      name: "",
-      email: "",
-      service: "",
-      budget: "",
-      message: "",
-    });
-  } catch (error) {
-    console.error("Email sending failed:", error);
-    alert("Failed to send message. Please try again later.");
-  } finally {
-    setIsSending(false);
-  }
-};
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || "Failed to send message");
+      }
+
+      alert("Your message has been sent successfully!");
+
+      setFormData({
+        name: "",
+        email: "",
+        service: "",
+        budget: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Email sending failed:", error);
+      alert("Failed to send message. Please try again later.");
+    } finally {
+      setIsSending(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -223,7 +223,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                       rkvirgo90@gmail.com
+                      anam14daim@gmail.com
                     </p>
                   </div>
                 </div>
@@ -234,7 +234,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+92 3232109265</p>
+                    <p className="text-muted-foreground">+92 3357822490</p>
                   </div>
                 </div>
 
@@ -244,7 +244,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Lahore, Pakistan</p>
+                    <p className="text-muted-foreground">Mianwali, Pakistan</p>
                   </div>
                 </div>
               </CardContent>
@@ -267,7 +267,7 @@ export default function ContactPage() {
                   </Button>
                   <Button size="icon" variant="outline" asChild>
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/anam-fatima-623255279/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -275,13 +275,13 @@ export default function ContactPage() {
                     </a>
                   </Button>
                   <Button size="icon" variant="outline" asChild>
-  <a
-    href="mailto:rkvirgo90@gmail.com?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
-    aria-label="Send email"
-  >
-    <Mail className="h-4 w-4" />
-  </a>
-</Button>
+                    <a
+                      href="mailto:anam14daim@gmail.com?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
+                      aria-label="Send email"
+                    >
+                      <Mail className="h-4 w-4" />
+                    </a>
+                  </Button>
                 </div>
               </CardContent>
             </Card>
@@ -308,15 +308,15 @@ export default function ContactPage() {
             <CardContent className="p-0">
               <div className="overflow-hidden rounded-b-lg">
                 <iframe
-  src="https://www.google.com/maps?q=Karachi,+Pakistan&output=embed"
-  width="100%"
-  height="400"
-  style={{ border: 0 }}
-  allowFullScreen
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  className="w-full h-96"
-></iframe>
+                  src="https://www.google.com/maps?q=Mianwali,+Punjab,+Pakistan&output=embed"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full h-96"
+                ></iframe>
               </div>
               <div className="p-4 text-center">
                 <p className="text-muted-foreground">

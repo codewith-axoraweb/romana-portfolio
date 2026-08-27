@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 import { DownloadResumeButton } from "@/components/DownloadResumeButton"
 
 export const metadata: Metadata = {
-  title: "About Ramsha Khan- Expert Content Writer & SEO Copywriter",
+  title: "About Anam Fatima - Expert Content Writer & SEO Copywriter",
   description:
-    "Learn about Sushmeela, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
+    "Learn about Anam Fatima, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
   keywords: [
-  "Sushmeela",
+  "Anam Fatima",
   "content writer",
   "best content writing services",
   "content writing services in Pakistan",
@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Anam Fatima" }],
   openGraph: {
-    title: "About Ramsha Khan- Expert Content Writer",
+    title: "About Anam Fatima - Expert Content Writer",
     description:
-      "Discover Sushmeela's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
+      "Discover Anam Fatima's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
     type: "website",
     url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
     images: [
@@ -48,16 +48,16 @@ export const metadata: Metadata = {
         url: "/aboutme.webp", // Replace with a relevant image for the About page
         width: 1200,
         height: 630,
-        alt: "Ramsha Khan- Content Writer Profile",
+        alt: "Anam Fatima - Content Writer Profile",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Anam Fatima Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Ramsha Khan- Expert Content Writer",
+    title: "About Anam Fatima - Expert Content Writer",
     description:
-      "Learn about Sushmeela's expertise in SEO content, blog writing, and copywriting for impactful business content.",
+      "Learn about Anam Fatima's expertise in SEO content, blog writing, and copywriting for impactful business content.",
     images: ["/aboutme.webp"], // Replace with your actual image
   },
   alternates: {
@@ -78,15 +78,15 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Sushmeela",
+      name: "Anam Fatima",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your actual LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Anam Fatima", // Replace with your actual LinkedIn
+        "https://twitter.com/Anam Fatima", // Replace with your actual Twitter
       ],
       description:
-        "Ramsha Khanis a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
+        "Anam Fatima is a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
     }),
   },
 };
@@ -102,15 +102,15 @@ export default function AboutPage() {
         <section className="text-center mb-16">
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
-              src="/aboutme.webp?height=128&width=128"
-              alt="Rimsha"
+              src="/about.png"
+              alt="Anam"
               fill
               className="rounded-full border-4 border-primary/20"
             />
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">About Me</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate content writer with 2+ yearsof experience crafting words that connect, convert, and inform.
+            I'm a passionate content writer with 5+ years of experience crafting words that connect, convert, and inform.
             I specialize in web content, blogs, and brand storytelling that leaves a lasting impact.
           </p>
           <DownloadResumeButton/>
@@ -124,7 +124,7 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Briefcase className="h-6 w-6 text-blue" />
+                    <Briefcase className="h-6 w-6 text-primary" />
                   </div>
                   <div>
                     <CardTitle>Senior Content Writer</CardTitle>
@@ -149,11 +149,11 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Briefcase className="h-6 w-6 text-blue" />
+                    <Briefcase className="h-6 w-6 text-primary" />
                   </div>
                   <div>
                     <CardTitle>Content Specialist</CardTitle>
-                    <p className="text-muted-foreground">InspireMedia Co. • 2023 - 2024</p>
+                    <p className="text-muted-foreground">InspireMedia Co. • 2020 - 2022</p>
                   </div>
                 </div>
               </CardHeader>
@@ -282,11 +282,11 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <GraduationCap className="h-6 w-6 text-blue" />
+                    <GraduationCap className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <CardTitle>Bachelor of English Literature</CardTitle>
-                    <p className="text-muted-foreground">National University • 2015 - 2019</p>
+                    <CardTitle>Master In English Literature</CardTitle>
+                    <p className="text-muted-foreground">BZU Multan  (2014)</p>
                   </div>
                 </div>
               </CardHeader>
@@ -301,11 +301,12 @@ export default function AboutPage() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Award className="h-6 w-6 text-blue" />
+                    <Award className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <CardTitle>HubSpot Content Marketing Certified</CardTitle>
-                    <p className="text-muted-foreground">HubSpot Academy • 2023</p>
+                    <CardTitle>Bachelor Of Education</CardTitle>
+                    <p className="text-muted-foreground">U.E Lahore     (2011)
+</p>
                   </div>
                 </div>
               </CardHeader>

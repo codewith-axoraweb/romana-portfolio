@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Ramsha Khan- Best Content Writer in Pakistan",
+  title: "Contact Anam fatima- Best Content Writer in Pakistan",
   description:
-    "Contact Ramsha Khanfor top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "Contact Anam fatimafor top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "freelance content writer near me",
   ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Anam Fatima" }],
   openGraph: {
-    title: "Contact Ramsha Khan- Best Content Writer in Pakistan",
+    title: "Contact Anam fatima- Best Content Writer in Pakistan",
     description:
-      "Reach Ramsha Khanfor expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
+      "Reach Anam fatimafor expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
         url: "/contact-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Contact Ramsha Khanfor Content Writing Services",
+        alt: "Contact Anam fatimafor Content Writing Services",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Anam fatimaPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Ramsha Khan- Content Writing Services",
+    title: "Contact Anam fatima- Content Writing Services",
     description:
-      "Get in touch with Ramsha Khanfor SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
+      "Get in touch with Anam fatimafor SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {
@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Sushmeela",
+      name: "Anam Fatima",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://yourwebsite.com/contact",
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela",
-        "https://twitter.com/Sushmeela",
+        "https://www.linkedin.com/in/Anam Fatima",
+        "https://twitter.com/Anam Fatima",
         "https://wa.me/yourwhatsappnumber",
       ],
       contactPoint: [
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         },
       ],
       description:
-        "Contact Sushmeela, a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "Contact Anam Fatima, a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }

@@ -18,12 +18,12 @@ import { Footer } from "@/components/footer";
 
 export default function HomePage() {
   const handleDownloadResume = async () => {
-  const response = await fetch('/ramsha.pdf')
+  const response = await fetch('/anam.pdf')
   const blob = await response.blob();
 
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.setAttribute('download', 'ramsha.pdf');                       
+  link.setAttribute('download', 'anam.pdf');                       
   link.style.display = 'none';
   document.body.appendChild(link);
   link.click(); // 👈 triggers instant download
@@ -46,7 +46,7 @@ export default function HomePage() {
                   Available for freelance writing projects
                 </Badge>
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight break-words">
-                  Hi, I'm <span className="text-blue-600">Ramsha Khan</span>
+                  Hi, I'm <span className="text-blue-600">Anam fatima</span>
                 </h1>
                 <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground">
                   Creative Content Writer & Copywriter
@@ -84,12 +84,13 @@ export default function HomePage() {
                   </Link>
                 </Button>
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="https://linkedin.com" target="_blank">
+                  <Link href="https://www.linkedin.com/in/anam-fatima-623255279/" target="_blank">
                     <Linkedin className="h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="mailto: rkvirgo90@gmail.com">
+                  <Link href="mailto:anam14daim@gmail.com?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
+>
                     <Mail className="h-5 w-5" />
                   </Link>
                 </Button>

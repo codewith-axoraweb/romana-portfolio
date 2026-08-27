@@ -10,12 +10,15 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-  <img
-    src="/rimsha.png"
-    alt="Ramsha Khan Logo"
-    className="h-auto w-[150px] max-w-full object-contain sm:w-[200px] md:w-[220px] lg:w-[240px]"
-  />
-</div>
+              <Image
+                src="/anam.png"
+                alt="Anam Fatima Logo"
+                width={180}
+                height={60}
+                className="h-[80px] w-auto object-contain"
+                priority
+              />
+            </div>      
             <p className="text-muted-foreground">Crafted with clarity by your dedicated Content Writer</p>
 
             <div className="flex space-x-2">
@@ -35,7 +38,7 @@ export function Footer() {
                 </Link>
               </Button>
               <Button size="icon" variant="ghost" asChild>
-                <Link href="mailto: rkvirgo90@gmail.com">
+                <Link href="mailto: anam14daim@gmail.com">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
@@ -73,19 +76,19 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <span className="text-muted-foreground">Website Copywriting
-</span>
+                </span>
               </li>
               <li>
                 <span className="text-muted-foreground">SEO Content Strategy
-</span>
+                </span>
               </li>
               <li>
                 <span className="text-muted-foreground">Press Releases & PR Writing
-</span>
+                </span>
               </li>
               <li>
                 <span className="text-muted-foreground">SEO Content Strategy
-</span>
+                </span>
               </li>
             </ul>
           </div>
@@ -94,10 +97,10 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li>
-                <span className="text-muted-foreground"> rkvirgo90@gmail.com</span>
+                <span className="text-muted-foreground"> anam14daim@gmail.com</span>
               </li>
               <li>
-                <span className="text-muted-foreground">+92 3232109265</span>
+                <span className="text-muted-foreground">+92 3357822490</span>
               </li>
               <li>
                 <span className="text-muted-foreground">Karachi, Pakistan</span>
@@ -107,7 +110,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()}  Sushmeela. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()}  Anam Fatima. All rights reserved.</p>
         </div>
       </div>
     </footer>

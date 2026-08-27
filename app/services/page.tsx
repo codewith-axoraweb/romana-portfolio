@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { CheckCircle, FileText, PenLine, Search, Newspaper, MessageCircle } from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Sushmeela's Services - Best Content Writing & SEO Copywriting",
+  title: "Anam Fatima's Services - Best Content Writing & SEO Copywriting",
   description:
-    "Hire Ramsha Khanfor top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
+    "Hire Anam fatimafor top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
   keywords: [
     "best content writing services",
     "content writing services in Pakistan",
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     "professional content writing services",
     "content writer Karachi",
   ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Anam Fatima" }],
   openGraph: {
-    title: "Sushmeela's Services - Best Content Writing & SEO in Pakistan",
+    title: "Anam Fatima's Services - Best Content Writing & SEO in Pakistan",
     description:
-      "Ramsha Khanoffers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
+      "Anam fatimaoffers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
     type: "website",
     url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
     images: [
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
         url: "/services-og-image.jpg", // Replace with a relevant image for the Services page
         width: 1200,
         height: 630,
-        alt: "Ramsha KhanBest Content Writing Services",
+        alt: "Anam fatimaBest Content Writing Services",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Anam fatimaPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sushmeela's Services - Best Content Writing & SEO",
+    title: "Anam Fatima's Services - Best Content Writing & SEO",
     description:
-      "Hire Ramsha Khanfor professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
+      "Hire Anam fatimafor professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
     images: ["/services-og-image.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -67,15 +67,15 @@ export const metadata: Metadata = {
       serviceType: "Content Writing",
       provider: {
         "@type": "Person",
-        name: "Sushmeela",
+        name: "Anam Fatima",
       },
       url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your actual LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Anam Fatima", // Replace with your actual LinkedIn
+        "https://twitter.com/Anam Fatima", // Replace with your actual Twitter
       ],
       description:
-        "Ramsha Khanprovides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
+        "Anam fatimaprovides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
       areaServed: [
         "Pakistan",
         "Karachi",
