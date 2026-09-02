@@ -364,48 +364,37 @@ export default function PortfolioPage() {
 
         {/* Call to Action */}
         <section className="text-center py-16">
+  <Card className="max-w-2xl mx-auto">
+    <CardContent className="p-8">
+      <h2 className="text-2xl font-bold mb-4">
+        Interested in Working Together?
+      </h2>
 
-          <Card className="max-w-2xl mx-auto">
+      <p className="text-muted-foreground mb-6">
+        I'm always open to discussing new opportunities and meaningful
+        content projects.
+      </p>
 
-            <CardContent className="p-8">
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <Button size="lg" asChild>
+          <a
+            href="https://wa.me/923337784823?text=Hello%20Romana%2C%20I%20would%20like%20to%20discuss%20a%20content%20project%20with%20you."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp Me
+          </a>
+        </Button>
 
-              <h2 className="text-2xl font-bold mb-4">
-                Interested in Working Together?
-              </h2>
-
-              <p className="text-muted-foreground mb-6">
-                I'm always open to discussing new opportunities and meaningful
-                content projects.
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-
-                <Button
-                  size="lg"
-                  asChild
-                >
-                  <Link href="/contact">
-                    Get In Touch
-                  </Link>
-                </Button>
-
-                <Button
-                  size="lg"
-                  variant="outline"
-                  asChild
-                >
-                  <Link href="/services">
-                    View Services
-                  </Link>
-                </Button>
-
-              </div>
-
-            </CardContent>
-
-          </Card>
-
-        </section>
+        <Button size="lg" variant="outline" asChild>
+          <Link href="/services">
+            View Services
+          </Link>
+        </Button>
+      </div>
+    </CardContent>
+  </Card>
+</section>
 
       </div>
 

@@ -283,25 +283,37 @@ export default function ServicesPage() {
         </section>
 
         {/* CTA */}
-        <section className="text-center">
-          <Card className="max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <MessageCircle className="h-12 w-12 text-blue mx-auto mb-4" />
-              <h2 className="text-2xl font-bold mb-4">Ready to Elevate Your Content?</h2>
-              <p className="text-muted-foreground mb-6">
-                Let's discuss your content needs and bring your ideas to life with impactful writing.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild>
-                  <Link href="/contact">Get Free Quote</Link>
-                </Button>
-                <Button size="lg" variant="outline" asChild>
-                  <Link href="/portfolio">View Writing Samples</Link>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
+      <section className="text-center">
+  <Card className="max-w-2xl mx-auto">
+    <CardContent className="p-8">
+      <MessageCircle className="h-12 w-12 text-blue mx-auto mb-4" />
+
+      <h2 className="text-2xl font-bold mb-4">
+        Ready to Elevate Your Content?
+      </h2>
+
+      <p className="text-muted-foreground mb-6">
+        Let's discuss your content needs and bring your ideas to life with impactful writing.
+      </p>
+
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <Button size="lg" asChild>
+          <a
+            href="https://wa.me/923337784823?text=Hello%20Romana%2C%20I%20would%20like%20to%20discuss%20my%20content%20needs%20with%20you."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get Free Quote
+          </a>
+        </Button>
+
+        <Button size="lg" variant="outline" asChild>
+          <Link href="/portfolio">View Writing Samples</Link>
+        </Button>
+      </div>
+    </CardContent>
+  </Card>
+</section>
       </div>
 
       <Footer />

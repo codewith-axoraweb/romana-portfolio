@@ -1,4 +1,5 @@
 "use client";
+
 import type React from "react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -6,7 +7,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { metadata } from "./metadata";
 import {
   Select,
   SelectContent,
@@ -16,15 +16,7 @@ import {
 } from "@/components/ui/select";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Send,
-  Youtube,
-  Linkedin,
-  Twitter,
-} from "lucide-react";
+import { Mail, MapPin, Send, MessageCircle } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -83,6 +75,12 @@ export default function ContactPage() {
     }
   };
 
+  const whatsappNumber = "923337784823";
+
+  const whatsappMessage = encodeURIComponent(
+    "Hello Romana, I would like to discuss a content writing project with you."
+  );
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -92,120 +90,50 @@ export default function ContactPage() {
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">
             Let's Collaborate
           </h1>
+
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Whether you need engaging articles, strategic SEO content, or
-            compelling web copy , I'm here to help.
+            compelling web copy, I'm here to help.
           </p>
         </section>
 
         <div className="grid lg:grid-cols-3 gap-12">
+          {/* WhatsApp Card */}
           <div className="lg:col-span-2">
             <Card>
               <CardHeader>
                 <CardTitle className="text-2xl">
-                  Share Your Project Details
+                  Let's Talk on WhatsApp
                 </CardTitle>
               </CardHeader>
+
               <CardContent>
-                <form onSubmit={handleSubmitEmail} className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Label htmlFor="name">Full Name</Label>
-                      <Input
-                        id="name"
-                        placeholder="Your full name"
-                        value={formData.name}
-                        onChange={(e) => handleChange("name", e.target.value)}
-                        required
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="email">Email Address</Label>
-                      <Input
-                        id="email"
-                        type="email"
-                        placeholder="your.email@example.com"
-                        value={formData.email}
-                        onChange={(e) => handleChange("email", e.target.value)}
-                        required
-                      />
-                    </div>
+                <div className="flex flex-col items-center justify-center text-center py-10">
+                  <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-5">
+                    <MessageCircle className="h-8 w-8 text-blue" />
                   </div>
 
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Label htmlFor="service">Type of Content</Label>
-                      <Select
-                        value={formData.service}
-                        onValueChange={(value) =>
-                          handleChange("service", value)
-                        }
-                      >
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select a content type" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="blog-article">
-                            Blog/Article Writing
-                          </SelectItem>
-                          <SelectItem value="web-copy">
-                            Website Copywriting
-                          </SelectItem>
-                          <SelectItem value="press-release">
-                            Press Releases
-                          </SelectItem>
-                          <SelectItem value="seo-strategy">
-                            SEO Content Strategy
-                          </SelectItem>
-                          <SelectItem value="editing-proofreading">
-                            Editing & Proofreading
-                          </SelectItem>
-                          <SelectItem value="other">Other</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="budget">Content Budget</Label>
-                      <Select
-                        value={formData.budget}
-                        onValueChange={(value) => handleChange("budget", value)}
-                      >
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select budget range" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="under-500">Under $60</SelectItem>
-                          <SelectItem value="500-1k">$10 - $20</SelectItem>
-                          <SelectItem value="1k-2k">$30 - $40</SelectItem>
-                          <SelectItem value="2k-5k">$50- $60</SelectItem>
-                          <SelectItem value="over-5k">Over $50</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                  </div>
+                  <h2 className="text-2xl font-semibold mb-3">
+                    Start a Conversation
+                  </h2>
 
-                  <div className="space-y-2">
-                    <Label htmlFor="message">Project Description</Label>
-                    <Textarea
-                      id="message"
-                      placeholder="Tell me about your content goals, audience, and tone preferences..."
-                      rows={6}
-                      value={formData.message}
-                      onChange={(e) => handleChange("message", e.target.value)}
-                      required
-                    />
-                  </div>
+                  <p className="text-muted-foreground max-w-xl mb-6">
+                    Have a project in mind? Contact me directly on WhatsApp to
+                    discuss your requirements, content needs, and project
+                    details.
+                  </p>
 
-                  <Button
-                    type="submit"
-                    size="lg"
-                    className="w-full"
-                    disabled={isSending}
-                  >
-                    <Send className="mr-2 h-4 w-4" />
-                    {isSending ? "Sending..." : "Submit Inquiry"}
+                  <Button size="lg" asChild>
+                    <a
+                      href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <MessageCircle className="mr-2 h-5 w-5" />
+                      Chat on WhatsApp
+                    </a>
                   </Button>
-                </form>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -215,11 +143,13 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle>Contact Information</CardTitle>
               </CardHeader>
+
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Mail className="h-5 w-5 text-blue" />
                   </div>
+
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
@@ -230,51 +160,41 @@ export default function ContactPage() {
 
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Phone className="h-5 w-5 text-blue" />
-                  </div>
-                  <div>
-                    <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+92 3337784823</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                     <MapPin className="h-5 w-5 text-blue" />
                   </div>
+
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground"> Pakistan</p>
+                    <p className="text-muted-foreground">Pakistan</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
+            {/* WhatsApp Card */}
             <Card>
               <CardHeader>
-                <CardTitle>Follow Me</CardTitle>
+                <CardTitle>WhatsApp</CardTitle>
               </CardHeader>
+
               <CardContent>
-                <div className="flex gap-4">
-                  
-                  <Button size="icon" variant="outline" asChild>
-                    <a
-                      href="https://www.linkedin.com/in/romana-wasem?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Linkedin className="h-4 w-4" />
-                    </a>
-                  </Button>
-                  <Button size="icon" variant="outline" asChild>
-                    <a
-                      href="mailto:romana.acemedassist@gmail.com?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
-                      aria-label="Send email"
-                    >
-                      <Mail className="h-4 w-4" />
-                    </a>
-                  </Button>
-                </div>
+                <a
+                  href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3"
+                >
+                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <MessageCircle className="h-5 w-5 text-blue" />
+                  </div>
+
+                  <div>
+                    <p className="font-medium">Chat with me</p>
+                    <p className="text-muted-foreground">
+                      +92 3337784823
+                    </p>
+                  </div>
+                </a>
               </CardContent>
             </Card>
 
@@ -282,10 +202,11 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle>Response Time</CardTitle>
               </CardHeader>
+
               <CardContent>
                 <p className="text-muted-foreground">
                   I typically respond within 24 hours. If your content request
-                  is urgent, please reach out via email.
+                  is urgent, please reach out via WhatsApp.
                 </p>
               </CardContent>
             </Card>
@@ -297,6 +218,7 @@ export default function ContactPage() {
             <CardHeader>
               <CardTitle>Our Location</CardTitle>
             </CardHeader>
+
             <CardContent className="p-0">
               <div className="overflow-hidden rounded-b-lg">
                 <iframe
@@ -310,6 +232,7 @@ export default function ContactPage() {
                   className="w-full h-96"
                 ></iframe>
               </div>
+
               <div className="p-4 text-center">
                 <p className="text-muted-foreground">
                   Serving clients globally from Pakistan
