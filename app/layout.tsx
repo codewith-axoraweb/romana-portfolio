@@ -11,10 +11,10 @@ import FloatingWhatsApp from "@/components/floating-whatsapp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Anam fatima - Expert Content Writer & SEO Copywriter",
+  title: "  Romana Wasem - Expert Content Writer & SEO Copywriter",
 
   description:
-    "Discover Anam fatima's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+    "Discover   Romana Wasem's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
 
   keywords: [
     "content writer",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "copywriting",
     "content strategy",
     "freelance writer",
-    "Anam fatima portfolio",
+    "  Romana Wasem portfolio",
     "storycup",
   ],
 
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     apple: "/anam.png",
   },
 
-  authors: [{ name: "Anam fatima" }],
+  authors: [{ name: "  Romana Wasem" }],
 
   openGraph: {
-    title: "Anam fatima - Expert Content Writer & Copywriter",
+    title: "  Romana Wasem - Expert Content Writer & Copywriter",
     description:
-      "Explore Anam fatima's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
+      "Explore   Romana Wasem's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
     type: "website",
     url: "https://storycup.vercel.app/",
     images: [
@@ -46,17 +46,17 @@ export const metadata: Metadata = {
         url: "/anam.png",
         width: 1200,
         height: 630,
-        alt: "Anam fatima Content Writing Portfolio",
+        alt: "  Romana Wasem Content Writing Portfolio",
       },
     ],
-    siteName: "Anam fatima Portfolio",
+    siteName: "  Romana Wasem Portfolio",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Anam fatima - Expert Content Writer & Copywriter",
+    title: "  Romana Wasem - Expert Content Writer & Copywriter",
     description:
-      "Explore Anam fatima's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
+      "Explore   Romana Wasem's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
     images: ["/anam.png"],
   },
 

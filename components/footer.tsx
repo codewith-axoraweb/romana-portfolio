@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center">
               <Image
                 src="/anam.png"
-                alt="Anam Fatima Logo"
+                alt="  Romana Wasem Logo"
                 width={180}
                 height={60}
                 className="h-[80px] w-auto object-contain"
@@ -38,7 +38,7 @@ export function Footer() {
                 </Link>
               </Button>
               <Button size="icon" variant="ghost" asChild>
-                <Link href="mailto: anam14daim@gmail.com">
+                <Link href="mailto: romana.acemedassist@gmail.com">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
@@ -97,20 +97,20 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li>
-                <span className="text-muted-foreground"> anam14daim@gmail.com</span>
+                <span className="text-muted-foreground"> romana.acemedassist@gmail.com</span>
               </li>
               <li>
-                <span className="text-muted-foreground">+92 3357822490</span>
+                <span className="text-muted-foreground">+92 3337784823</span>
               </li>
               <li>
-                <span className="text-muted-foreground">Karachi, Pakistan</span>
+                <span className="text-muted-foreground">Pakistan</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()}  Anam Fatima. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()}    Romana Wasem. All rights reserved.</p>
         </div>
       </div>
     </footer>

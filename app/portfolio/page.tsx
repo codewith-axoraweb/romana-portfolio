@@ -9,11 +9,11 @@ import { Footer } from "@/components/footer"
 import { ExternalLink} from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Anam Fatima's Portfolio - SEO Content & Copywriting",
+  title: "  Romana Wasem's Portfolio - SEO Content & Copywriting",
   description:
-    "Explore Anam Fatima's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
+    "Explore   Romana Wasem's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
   keywords: [
-  "Anam fatimaportfolio",
+  "  Romana Wasemportfolio",
   "content writing portfolio",
   "best content writing services",
   "content writing services in Pakistan",
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Anam Fatima" }],
+  authors: [{ name: "  Romana Wasem" }],
   openGraph: {
-    title: "Anam Fatima's Portfolio - Content Writing & SEO",
+    title: "  Romana Wasem's Portfolio - Content Writing & SEO",
     description:
-      "View Anam Fatima's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
+      "View   Romana Wasem's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
     type: "website",
     url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
     images: [
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
         url: "/worldwideartical.jpg", // Replace with a relevant image for the Portfolio page
         width: 1200,
         height: 630,
-        alt: "Anam fatimaContent Writing Portfolio",
+        alt: "  Romana WasemContent Writing Portfolio",
       },
     ],
-    siteName: "Anam fatimaPortfolio",
+    siteName: "  Romana WasemPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anam Fatima's Portfolio - Content Writing & SEO",
+    title: "  Romana Wasem's Portfolio - Content Writing & SEO",
     description:
-      "Discover Anam Fatima's portfolio showcasing SEO content, blog writing, and copywriting projects.",
+      "Discover   Romana Wasem's portfolio showcasing SEO content, blog writing, and copywriting projects.",
     images: ["/worldwideartical.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -76,18 +76,18 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Anam Fatima's Content Writing Portfolio",
+      name: "  Romana Wasem's Content Writing Portfolio",
       author: {
         "@type": "Person",
-        name: "Anam Fatima",
+        name: "  Romana Wasem",
       },
       url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
       sameAs: [
-        "https://www.linkedin.com/in/Anam Fatima", // Replace with your actual LinkedIn
-        "https://twitter.com/Anam Fatima", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/  Romana Wasem", // Replace with your actual LinkedIn
+        "https://twitter.com/  Romana Wasem", // Replace with your actual Twitter
       ],
       description:
-        "Anam Fatima's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
+        "  Romana Wasem's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
     }),
   },
 };
@@ -95,85 +95,85 @@ export const metadata: Metadata = {
 const projects = [
   {
     id: 1,
-    title: "Al-Innovation-Article -",
+    title: "8 Tips to Master User Intent",
     description:
       "A comprehensive article on the future of AI in business, published on Al-Innovation.",
     image: "/Al-Innovation-Article.webp?height=300&width=500",
     category: "Articles",
     technologies: ["SEO", "Blog Writing", "Content Strategy"],
-    liveUrl: "	https://www.centricdxb.com/insights/b2b-sales-funnel",
+    liveUrl: "	https://drive.google.com/drive/u/2/folders/1L83L1fW7GBF8xo0YTckgMA4tEGQKCJyt",
     githubUrl: "#",
     featured: true,
   },
   {
     id: 2,
-    title: "Biography Script for YouTube",
+    title: "10 Best Leather Jacket Brands To Know",
     description:
       "A detailed biography script for a YouTube channel, highlighting the life and achievements of a notable figure.",
     image: "/bBiography.webp?height=300&width=500",
     category: "Scripts",
     technologies: ["YouTube", "Scripting", "Tech Writing"],
-    liveUrl: "https://www.centricdxb.com/insights/what-is-direct-marketing",
+    liveUrl: "https://drive.google.com/drive/u/2/folders/1L83L1fW7GBF8xo0YTckgMA4tEGQKCJyt",
     githubUrl: "#",
     featured: true,
   },
   {
     id: 3,
-    title: "Cryptocurrency Founder Campaign",
+    title: "How SEO Can Help You Build a Strong Brand Identity",
     description:
       "Developed a personal branding campaign for a cryptocurrency founder, including LinkedIn posts and articles.",
     image: "/Cryptocurrency.webp?height=300&width=500",
     category: "Campaigns",
     technologies: ["Personal Branding", "Storytelling", "LinkedIn"],
-    liveUrl: "https://docs.google.com/document/d/1R5ygAN744d5ZDCDW9KIUpT8w6FAI4tvT4Qz-",
+    liveUrl: "https://drive.google.com/drive/u/2/folders/1L83L1fW7GBF8xo0YTckgMA4tEGQKCJyt",
     githubUrl: "#",
     featured: true,
   },
   {
     id: 4,
-    title: "Digital Marketing Documentation",
+    title: "Brother Entrepreneur Pro PR1000e Review",
     description:
       "Created comprehensive documentation for a digital marketing platform, including user guides and FAQs.",
     image: "/Digital Marketing.webp?height=300&width=500",
     category: "Documentation",
     technologies: ["Technical Writing", "Markdown", "Help Center"],
-    liveUrl: "https://docs.google.com/document/d/1TO-iNBPsDghU2NcYEsdi2TlmQ2ZbiyKpf2GPBL1hgrw/edit?usp=drivesdk",
+    liveUrl: "https://drive.google.com/drive/u/2/folders/1L83L1fW7GBF8xo0YTckgMA4tEGQKCJyt",
     githubUrl: "#",
     featured: false,
   },
   {
     id: 5,
-    title: "Informative-Article ",
+    title: "How Voice Mail Service Providers Improve Communication ",
     description:
       "An informative article on the impact of social media on modern communication, focusing on trends and statistics.",
     image: "/Informative-Article.webp?height=300&width=500",
     category: "Articles",
     technologies: ["Email Marketing", "Copywriting", "Campaign Design"],
-    liveUrl: "https://docs.google.com/document/d/1ArAjzfjEb-UGtkAn-EgSfwPFnb4r8c_2EdUc1myLg5M/edit?tab=t.0#heading=h.x4c673br8nv",
+    liveUrl: "https://drive.google.com/drive/u/2/folders/1L83L1fW7GBF8xo0YTckgMA4tEGQKCJyt",
     githubUrl: "#",
     featured: false,
   },
   {
     id: 6,
-    title: "Finance Blog Post",
+    title: "Lost Filling: Here's Why to Have an Emergency Dentist ASAP",
     description:
       "A blog post discussing the latest trends in personal finance, including budgeting and investment tips.",
     image: "/finance.webp?height=300&width=500",
     category: "Documentation",
     technologies: ["Open Source", "Markdown", "Technical Writing"],
-    liveUrl: "https://docs.google.com/document/d/13OhU8_g9z8dSSxtGFGazYMQ2RnOpHgRBHwgFrSt36Ns/edit?tab=t.0",
+    liveUrl: "https://drive.google.com/drive/u/2/folders/1L83L1fW7GBF8xo0YTckgMA4tEGQKCJyt",
     githubUrl: "#",
     featured: false,
   },
   {
     id: 7,
-    title: "Online Earning-Article",
+    title: "Swift Receptionist Support for Healthcare Communication Needs",
     description:
       "An article exploring various online earning opportunities, from freelancing to affiliate marketing.",
     image: "/Online Earning-Article.webp?height=300&width=500",
     category: "Articles",
     technologies: ["Open Source", "Markdown", "Technical Writing"],
-    liveUrl: "https://docs.google.com/document/d/12AYQKm8dYgmClzPtCYWX9lwtmqoVSgxQqYpoRt8Ic3w/edit?tab=t.0#heading=h.qnhn9o3lxevw",
+    liveUrl: "https://drive.google.com/drive/u/2/folders/1L83L1fW7GBF8xo0YTckgMA4tEGQKCJyt",
     githubUrl: "#",
     featured: false,
   },

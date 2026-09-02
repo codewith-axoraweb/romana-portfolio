@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 import { DownloadResumeButton } from "@/components/DownloadResumeButton"
 
 export const metadata: Metadata = {
-  title: "About Anam Fatima - Expert Content Writer & SEO Copywriter",
+  title: "About   Romana Wasem - Expert Content Writer & SEO Copywriter",
   description:
-    "Learn about Anam Fatima, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
+    "Learn about   Romana Wasem, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
   keywords: [
-  "Anam Fatima",
+  "  Romana Wasem",
   "content writer",
   "best content writing services",
   "content writing services in Pakistan",
@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Anam Fatima" }],
+  authors: [{ name: "  Romana Wasem" }],
   openGraph: {
-    title: "About Anam Fatima - Expert Content Writer",
+    title: "About   Romana Wasem - Expert Content Writer",
     description:
-      "Discover Anam Fatima's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
+      "Discover   Romana Wasem's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
     type: "website",
     url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
     images: [
@@ -48,16 +48,16 @@ export const metadata: Metadata = {
         url: "/aboutme.webp", // Replace with a relevant image for the About page
         width: 1200,
         height: 630,
-        alt: "Anam Fatima - Content Writer Profile",
+        alt: "  Romana Wasem - Content Writer Profile",
       },
     ],
-    siteName: "Anam Fatima Portfolio",
+    siteName: "  Romana Wasem Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Anam Fatima - Expert Content Writer",
+    title: "About   Romana Wasem - Expert Content Writer",
     description:
-      "Learn about Anam Fatima's expertise in SEO content, blog writing, and copywriting for impactful business content.",
+      "Learn about   Romana Wasem's expertise in SEO content, blog writing, and copywriting for impactful business content.",
     images: ["/aboutme.webp"], // Replace with your actual image
   },
   alternates: {
@@ -78,15 +78,15 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Anam Fatima",
+      name: "  Romana Wasem",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
       sameAs: [
-        "https://www.linkedin.com/in/Anam Fatima", // Replace with your actual LinkedIn
-        "https://twitter.com/Anam Fatima", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/  Romana Wasem", // Replace with your actual LinkedIn
+        "https://twitter.com/  Romana Wasem", // Replace with your actual Twitter
       ],
       description:
-        "Anam Fatima is a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
+        "  Romana Wasem is a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
     }),
   },
 };
@@ -110,7 +110,7 @@ export default function AboutPage() {
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">About Me</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate content writer with 5+ years of experience crafting words that connect, convert, and inform.
+            I'm a passionate content writer with 3+ years of experience crafting words that connect, convert, and inform.
             I specialize in web content, blogs, and brand storytelling that leaves a lasting impact.
           </p>
           <DownloadResumeButton/>

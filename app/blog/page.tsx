@@ -10,11 +10,11 @@ import { Calendar, Clock, Search, ArrowRight } from "lucide-react"
 import {Metadata} from "next"
 
 export const metadata: Metadata = {
-  title: "Anam Fatima's Blog - Best Content Writing Tips & SEO Insights",
+  title: "  Romana Wasem's Blog - Best Content Writing Tips & SEO Insights",
   description:
-    "Explore Anam Fatima's blog for expert tips on content writing, SEO content, and blog writing from Pakistan's top writer.",
+    "Explore   Romana Wasem's blog for expert tips on content writing, SEO content, and blog writing from Pakistan's top writer.",
   keywords: [
-    "Anam fatimablog",
+    "  Romana Wasemblog",
     "best content writing services",
     "content writing services in Pakistan",
     "article writing services in Pakistan",
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "content writer Karachi contact number",
   ],
-  authors: [{ name: "Anam Fatima" }],
+  authors: [{ name: "  Romana Wasem" }],
   openGraph: {
-    title: "Anam Fatima's Blog - Content Writing Tips & SEO Insights",
-    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Anam Fatima, a top writer in Pakistan.",
+    title: "  Romana Wasem's Blog - Content Writing Tips & SEO Insights",
+    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from   Romana Wasem, a top writer in Pakistan.",
     type: "website",
     url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
     images: [
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
         url: "/blog-og-image.jpg", // Replace with a relevant image for the Blog page
         width: 1200, // Fixed: Changed from 00 to 1200
         height: 630,
-        alt: "Anam fatimaBlog - Content Writing Tips",
+        alt: "  Romana WasemBlog - Content Writing Tips",
       },
     ],
-    siteName: "Anam fatimaPortfolio",
+    siteName: "  Romana WasemPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anam Fatima's Blog - Content Writing & SEO Tips",
+    title: "  Romana Wasem's Blog - Content Writing & SEO Tips",
     description:
-      "Read Anam Fatima's blog for top content writing, SEO, and blog writing tips from Pakistan to USA, Dubai, and Australia.",
+      "Read   Romana Wasem's blog for top content writing, SEO, and blog writing tips from Pakistan to USA, Dubai, and Australia.",
     images: ["/bBiography.webp"], // Replace with your actual image
   },
   alternates: {
@@ -76,19 +76,19 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "Anam Fatima's Content Writing Blog",
+  name: "  Romana Wasem's Content Writing Blog",
   author: {
     "@type": "Person",
-    name: "Anam Fatima",
+    name: "  Romana Wasem",
   },
   url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
       sameAs: [
-        "https://www.linkedin.com/in/Anam Fatima", // Replace with your actual LinkedIn
-        "https://twitter.com/Anam Fatima", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/  Romana Wasem", // Replace with your actual LinkedIn
+        "https://twitter.com/  Romana Wasem", // Replace with your actual Twitter
         "https://wa.me/+923181463435", // Replace with your actual WhatsApp number
       ],
       description:
-        "Anam Fatima's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Pakistan, Karachi, USA, Dubai, Australia, and UK.",
+        "  Romana Wasem's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Pakistan, Karachi, USA, Dubai, Australia, and UK.",
     }),
   },
 };

@@ -33,7 +33,7 @@ export function Header() {
 <Link href="/" className="flex items-center shrink-0">
   <img
     src="/anam.png"
-    alt="Anam fatima Logo"
+    alt="  Romana Wasem Logo"
     className="
       h-24 w-24
       sm:h-26 sm:w-26
