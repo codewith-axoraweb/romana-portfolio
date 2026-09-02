@@ -201,7 +201,7 @@ export default function AboutPage() {
                   <div>
                     <CardTitle>Social Media Marketing Manager</CardTitle>
                     <p className="text-muted-foreground">
-                      Rafique Diamond • June 2023 - Present
+                      Rafique Diamond • June 2023 - July 2025
                     </p>
                   </div>
                 </div>

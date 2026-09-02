@@ -93,10 +93,12 @@ const projects = [
     title: "8 Tips to Master User Intent",
     description:
       "An SEO-focused blog discussing user intent and practical strategies for creating content that matches search intent.",
-    image: "/Al-Innovation-Article.webp?height=300&width=500",
+    image:
+      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=80",
     category: "Blogs",
     technologies: ["SEO", "Blog Writing", "Keyword Research"],
-    liveUrl: DRIVE_URL,
+    liveUrl:
+      "https://docs.google.com/document/d/1ietW-LICUaPLUtW4AZ8tLwZhbac1-qfp6DPPOBUlhDs/edit?usp=drivesdk",
     featured: true,
   },
 
@@ -105,10 +107,12 @@ const projects = [
     title: "10 Best Leather Jacket Brands To Know",
     description:
       "A detailed SEO blog focused on leather jacket brands, written with engaging content and search-friendly structure.",
-    image: "/bBiography.webp?height=300&width=500",
+    image:
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80",
     category: "Blogs",
     technologies: ["SEO Writing", "Blog Writing", "Content Strategy"],
-    liveUrl: DRIVE_URL,
+    liveUrl:
+      "https://docs.google.com/document/d/1MvOWk8Utc6s-USu40xua7k592DE88dObJ7rrJspWok8/edit?usp=drivesdk",
     featured: true,
   },
 
@@ -117,46 +121,54 @@ const projects = [
     title: "How SEO Can Help You Build a Strong Brand Identity",
     description:
       "An informative SEO-focused piece explaining how search engine optimization can support brand identity and online visibility.",
-    image: "/Cryptocurrency.webp?height=300&width=500",
-    category: "Copywriting",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    category: "Blogs",
     technologies: ["SEO", "Copywriting", "Brand Building"],
-    liveUrl: DRIVE_URL,
+    liveUrl:
+      "https://docs.google.com/document/d/1Ia8kWCVpD0jKlF-g6KjEHZCIuEQqUdtROFY5nENRsh8/edit?usp=drivesdk",
     featured: true,
   },
 
   {
-    id: 4,
-    title: "Brother Entrepreneur Pro PR1000e Review",
-    description:
-      "A detailed product-focused piece created to provide useful information while maintaining an engaging and SEO-friendly writing style.",
-    image: "/Digital Marketing.webp?height=300&width=500",
-    category: "Copywriting",
-    technologies: ["Copywriting", "SEO Content", "Product Content"],
-    liveUrl: DRIVE_URL,
-    featured: false,
-  },
+  id: 4,
+  title: "Brother Entrepreneur Pro PR1000e Review",
+  description:
+    "A detailed product-focused piece created to provide useful information while maintaining an engaging and SEO-friendly writing style.",
+  image:
+    "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80",
+  category: "Blogs",
+  technologies: ["Copywriting", "SEO Content", "Product Content"],
+  liveUrl:
+    "https://docs.google.com/document/d/1Fi0o5MZOM3yf0d6iSAdx60To9VF3KdmHJifsb83vNdY/edit?usp=drivesdk",
+  featured: false,
+},
 
   {
     id: 5,
     title: "How Voice Mail Service Providers Improve Communication",
     description:
       "An informative content piece discussing communication services and how businesses can improve communication through voicemail solutions.",
-    image: "/Informative-Article.webp?height=300&width=500",
+    image:
+      "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?auto=format&fit=crop&w=800&q=80",
     category: "Blogs",
     technologies: ["SEO Writing", "Research", "Content Writing"],
-    liveUrl: DRIVE_URL,
+    liveUrl:
+      "https://docs.google.com/document/d/1qzJR_wS9VJ2eMVA3tW1tBchoDde0occPj2C9jgo3dik/edit?usp=drivesdk",
     featured: false,
   },
 
   {
     id: 6,
-    title: "Lost Filling: Here's Why to Have an Emergency Dentist ASAP",
+    title: "Lost Filling? Here's Why to Have an Emergency Dentist ASAP",
     description:
       "A healthcare-focused SEO blog explaining the importance of taking quick action after losing a dental filling.",
-    image: "/finance.webp?height=300&width=500",
+    image:
+      "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80",
     category: "Blogs",
     technologies: ["SEO", "Blog Writing", "Healthcare Content"],
-    liveUrl: DRIVE_URL,
+    liveUrl:
+      "https://docs.google.com/document/d/1EfjHVc07MFj5DXCak-4Bfp2gxNBvaqKSyNxe0PaClaA/edit?usp=drivesdk",
     featured: false,
   },
 
@@ -165,25 +177,43 @@ const projects = [
     title: "Swift Receptionist Support for Healthcare Communication Needs",
     description:
       "A professional content piece focused on healthcare communication and receptionist support services.",
-    image: "/Online Earning-Article.webp?height=300&width=500",
-    category: "Company Profiles",
+    image:
+      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80",
+    category: "Blogs",
     technologies: ["Company Content", "SEO Writing", "Business Writing"],
-    liveUrl: DRIVE_URL,
+    liveUrl:
+      "https://docs.google.com/document/d/1F8s1zrnknw8JZOYMe_OTFJqfUys0okxGZAuVEn0ahUk/edit?usp=drivesdk",
     featured: false,
   },
 
   {
     id: 8,
-    title: "Company Profile Content",
+    title: "Understanding Embroidery Machine File Types: A Simple Guide",
     description:
-      "Professional company profile content created to communicate business identity, services, value, and brand positioning.",
-    image: "/worldwideartical.jpg?height=300&width=500",
-    category: "Company Profiles",
-    technologies: ["Company Profiles", "Brand Building", "Content Strategy"],
-    liveUrl: DRIVE_URL,
+      "An informative article explaining embroidery machine file types in a simple and easy-to-understand way.",
+    image:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+    category: "Blogs",
+    technologies: ["SEO Writing", "Blog Writing", "Research"],
+    liveUrl:
+      "https://docs.google.com/document/d/1XSN8TfFdtGM1BVmVRn8we8uOh1ejJNmIGF5YoV2eoWM/edit?usp=drivesdk",
     featured: false,
   },
-]
+
+  {
+    id: 9,
+    title: "10 Best Teeth Whitening services Clinic in Fort Saskatchewan",
+    description:
+      "A detailed SEO-focused article about teeth whitening services and clinics in Fort Saskatchewan.",
+    image:
+      "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=800&q=80",
+    category: "Blogs",
+    technologies: ["SEO", "Blog Writing", "Healthcare Content"],
+    liveUrl:
+      "https://docs.google.com/document/d/18NqH1wIGWwZ5o5UpHNo7gBZz9RSKywsscRGD7oEk0P8/edit?usp=drivesdk",
+    featured: false,
+  },
+];
 
 export default function PortfolioPage() {
   const categories = [
