@@ -114,7 +114,55 @@ export default function HomePage() {
       </section>
 
       {/* Featured Project */}
-     
+     {/* About Me Section */}
+<section className="py-12 sm:py-16 lg:py-20">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl">
+
+      {/* Small Blue Line */}
+      <div className="flex items-center gap-3 mb-4">
+        <div className="w-10 h-1 bg-blue-600 rounded-full" />
+        <span className="text-sm font-semibold text-blue-600 uppercase tracking-wider">
+          About Me
+        </span>
+      </div>
+
+      {/* Heading */}
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-5">
+        About <span className="text-blue-600">Me</span>
+      </h2>
+
+      {/* Content */}
+      <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl">
+        <p>
+          I'm <span className="font-semibold text-foreground">Romana Wasem</span>,
+          a creative Content Writer and Copywriter passionate about turning ideas
+          into clear, engaging, and meaningful content.
+        </p>
+
+        <p>
+          I specialize in SEO content, blog writing, copywriting, social media
+          content, brand storytelling, and digital marketing. I focus on creating
+          content that connects with audiences while helping businesses build
+          their online presence.
+        </p>
+
+        <p>
+          My approach combines creativity, research, and strategy to deliver
+          original content that is informative, persuasive, and results-driven.
+        </p>
+      </div>
+
+      {/* Small Bottom Accent */}
+      <div className="mt-6 flex gap-2">
+        <div className="w-16 h-1 bg-blue-600 rounded-full" />
+        <div className="w-3 h-1 bg-blue-600/40 rounded-full" />
+        <div className="w-3 h-1 bg-blue-600/20 rounded-full" />
+      </div>
+
+    </div>
+  </div>
+</section>
 
    {/* Skills Preview */}
 <section className="py-12 sm:py-16 lg:py-20">
