@@ -256,15 +256,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <div className="flex gap-4">
-                  <Button size="icon" variant="outline" asChild>
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Youtube className="h-4 w-4" />
-                    </a>
-                  </Button>
+                  
                   <Button size="icon" variant="outline" asChild>
                     <a
                       href="https://www.linkedin.com/in/romana-wasem?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
@@ -307,16 +299,16 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent className="p-0">
               <div className="overflow-hidden rounded-b-lg">
-               <iframe
-  src="https://www.google.com/maps?q=Pakistan&output=embed"
-  width="100%"
-  height="400"
-  style={{ border: 0 }}
-  allowFullScreen
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  className="w-full h-96"
-></iframe>
+                <iframe
+                  src="https://www.google.com/maps?q=Pakistan&output=embed"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full h-96"
+                ></iframe>
               </div>
               <div className="p-4 text-center">
                 <p className="text-muted-foreground">
