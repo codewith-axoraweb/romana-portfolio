@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -131,18 +132,18 @@ const projects = [
   },
 
   {
-  id: 4,
-  title: "Brother Entrepreneur Pro PR1000e Review",
-  description:
-    "A detailed product-focused piece created to provide useful information while maintaining an engaging and SEO-friendly writing style.",
-  image:
-    "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80",
-  category: "Blogs",
-  technologies: ["Copywriting", "SEO Content", "Product Content"],
-  liveUrl:
-    "https://docs.google.com/document/d/1Fi0o5MZOM3yf0d6iSAdx60To9VF3KdmHJifsb83vNdY/edit?usp=drivesdk",
-  featured: false,
-},
+    id: 4,
+    title: "Brother Entrepreneur Pro PR1000e Review",
+    description:
+      "A detailed product-focused piece created to provide useful information while maintaining an engaging and SEO-friendly writing style.",
+    image:
+      "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80",
+    category: "Blogs",
+    technologies: ["Copywriting", "SEO Content", "Product Content"],
+    liveUrl:
+      "https://docs.google.com/document/d/1Fi0o5MZOM3yf0d6iSAdx60To9VF3KdmHJifsb83vNdY/edit?usp=drivesdk",
+    featured: false,
+  },
 
   {
     id: 5,
@@ -213,7 +214,7 @@ const projects = [
       "https://docs.google.com/document/d/18NqH1wIGWwZ5o5UpHNo7gBZz9RSKywsscRGD7oEk0P8/edit?usp=drivesdk",
     featured: false,
   },
-];
+]
 
 export default function PortfolioPage() {
   const categories = [
@@ -245,17 +246,17 @@ export default function PortfolioPage() {
         {/* Project Categories */}
         <Tabs defaultValue="All" className="mb-12">
 
-          <TabsList className="grid w-full grid-cols-4 max-w-2xl mx-auto">
-
+          {/* Responsive Tabs */}
+          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 max-w-2xl mx-auto h-auto gap-1 p-1">
             {categories.map((category) => (
               <TabsTrigger
                 key={category}
                 value={category}
+                className="text-sm sm:text-base whitespace-nowrap px-2 sm:px-4 py-2"
               >
                 {category}
               </TabsTrigger>
             ))}
-
           </TabsList>
 
           {categories.map((category) => (
@@ -263,7 +264,6 @@ export default function PortfolioPage() {
               key={category}
               value={category}
             >
-
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 {projects
@@ -341,6 +341,7 @@ export default function PortfolioPage() {
                             <Link
                               href={project.liveUrl}
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               <ExternalLink className="mr-2 h-3 w-3" />
                               View Work
@@ -356,7 +357,6 @@ export default function PortfolioPage() {
                   ))}
 
               </div>
-
             </TabsContent>
           ))}
 
@@ -364,37 +364,41 @@ export default function PortfolioPage() {
 
         {/* Call to Action */}
         <section className="text-center py-16">
-  <Card className="max-w-2xl mx-auto">
-    <CardContent className="p-8">
-      <h2 className="text-2xl font-bold mb-4">
-        Interested in Working Together?
-      </h2>
+          <Card className="max-w-2xl mx-auto">
+            <CardContent className="p-8">
 
-      <p className="text-muted-foreground mb-6">
-        I'm always open to discussing new opportunities and meaningful
-        content projects.
-      </p>
+              <h2 className="text-2xl font-bold mb-4">
+                Interested in Working Together?
+              </h2>
 
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button size="lg" asChild>
-          <a
-            href="https://wa.me/923337784823?text=Hello%20Romana%2C%20I%20would%20like%20to%20discuss%20a%20content%20project%20with%20you."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsApp Me
-          </a>
-        </Button>
+              <p className="text-muted-foreground mb-6">
+                I'm always open to discussing new opportunities and meaningful
+                content projects.
+              </p>
 
-        <Button size="lg" variant="outline" asChild>
-          <Link href="/services">
-            View Services
-          </Link>
-        </Button>
-      </div>
-    </CardContent>
-  </Card>
-</section>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+                <Button size="lg" asChild>
+                  <a
+                    href="https://wa.me/923337784823?text=Hello%20Romana%2C%20I%20would%20like%20to%20discuss%20a%20content%20project%20with%20you"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp Me
+                  </a>
+                </Button>
+
+                <Button size="lg" variant="outline" asChild>
+                  <Link href="/services">
+                    View Services
+                  </Link>
+                </Button>
+
+              </div>
+
+            </CardContent>
+          </Card>
+        </section>
 
       </div>
 
