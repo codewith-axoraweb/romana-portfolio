@@ -71,28 +71,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">Services</h3>
-            <ul className="space-y-2">
-              <li>
-                <span className="text-muted-foreground">Website Copywriting
-                </span>
-              </li>
-              <li>
-                <span className="text-muted-foreground">SEO Content Strategy
-                </span>
-              </li>
-              <li>
-                <span className="text-muted-foreground">Press Releases & PR Writing
-                </span>
-              </li>
-              <li>
-                <span className="text-muted-foreground">SEO Content Strategy
-                </span>
-              </li>
-            </ul>
-          </div>
-
+          
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">

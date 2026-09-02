@@ -94,7 +94,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Whether you need engaging articles, strategic SEO content, or
-            compelling web copy—I'm here to help.
+            compelling web copy , I'm here to help.
           </p>
         </section>
 

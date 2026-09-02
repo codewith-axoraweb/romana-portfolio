@@ -221,51 +221,6 @@ export default function ServicesPage() {
         </section>
 
         {/* Pricing Packages */}
-<section className="mb-20">
-  <div className="text-center mb-12">
-    <h2 className="text-3xl font-bold mb-4">Pricing Packages</h2>
-    <p className="text-lg text-muted-foreground">Flexible content solutions for every stage of growth</p>
-  </div>
-
-  <div className="grid md:grid-cols-3 gap-8">
-    {packages.map((pkg, index) => (
-      <Card key={index} className={`relative ${pkg.popular ? "border-primary shadow-lg" : ""}`}>
-        {/* Popular Badge */}
-        {pkg.popular && (
-          <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
-            Most Popular
-          </Badge>
-        )}
-
-        {/* Discount Badge */}
-        {pkg.discount && (
-          <div className="absolute top-3 right-3 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded z-10 shadow">
-            {pkg.discount}
-          </div>
-        )}
-
-        <CardHeader className="text-center">
-          <CardTitle className="text-2xl">{pkg.name}</CardTitle>
-          <div className="text-3xl font-bold text-blue">{pkg.price}</div>
-          <p className="text-muted-foreground">{pkg.description}</p>
-        </CardHeader>
-        <CardContent>
-          <ul className="space-y-3 mb-6">
-            {pkg.features.map((feature, featureIndex) => (
-              <li key={featureIndex} className="flex items-center gap-2">
-                <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
-                <span className="text-sm">{feature}</span>
-              </li>
-            ))}
-          </ul>
-          <Button className="w-full" variant={pkg.popular ? "default" : "outline"} asChild>
-            <Link href="/contact">Get Started</Link>
-          </Button>
-        </CardContent>
-      </Card>
-    ))}
-  </div>
-</section>
 
 
         {/* Process */}
